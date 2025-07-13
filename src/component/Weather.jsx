@@ -20,7 +20,7 @@ const Weather = () => {
         })
     }
     return (
-        <div className='bg-black p-8'>
+        <div className='bg-black p-52 h-screen w-full'>
             <div className='p-6 bg-blue-500'>
                 <h1 className='text-3xl font-semibold'>Welcome to Weather App</h1>
                 <p>I can tell your city's current weather</p>
