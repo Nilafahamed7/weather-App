@@ -22,7 +22,7 @@ const Weather = () => {
     return (
         <div className='bg-black pt-48 p-6 h-screen w-full'>
             <div className='p-6 mx-auto my-auto bg-blue-500 md:w-3/4'>
-                <h1 className=' sm:text-2xl mb-2 text-3xl font-semibold'>Welcome to Weather App</h1>
+                <h1 className=' md:text-3xl mb-2 text-xl font-bold'>Welcome to Weather App</h1>
                 <p>I can tell your city's current weather</p>
                 <img className='mt-4 mb-4 h-32 object-contain ' src={cloudy} alt="" />
                 <input onChange={(e) => {
